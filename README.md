@@ -38,7 +38,7 @@ $ mvn clean package
 ```
 
 For convenience, the example programs project is set up so that the maven package target produces a single executable, 
-`/mqtt-sample `, that includes all of the example programs and dependencies.
+`mqtt-sample`, that includes all of the example programs and dependencies.
 
 
 **3- Run the Subscriber**
