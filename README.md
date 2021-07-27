@@ -43,7 +43,7 @@ For convenience, the example programs project is set up so that the maven packag
 
 **3- Run the Subscriber**
 
-The subscriber will received and print all the messages published on the `iot_data` topic.
+The subscriber will received and print all the messages published on the `tags` topic.
 
 ```
 $ ./target/mqtt-sample subscriber
