@@ -51,8 +51,8 @@ $ ./target/mqtt-sample subscriber
 
 **4- Run the Publisher**
 
-Run the publisher with the following command, the second parameter is the message to publish
+Run the publisher with the following command; it will read from input.txt (which you should have created as output.txt from a subscriber)
 
 ```
-$ ./target/mqtt-sample publisher "My first MQTT message..."
+$ ./target/mqtt-sample publisher 
 ```
