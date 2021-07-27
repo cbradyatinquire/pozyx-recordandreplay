@@ -1,12 +1,21 @@
-# Getting Started with MQTT and Java
+# MODIFIED FROM: Getting Started with MQTT and Java
 
+https://github.com/tgrall/mqtt-sample-java
 This project is a simple application to show how to start your first MQTT Application.
 
-## Prerequisite
+## Prerequisites
 
 * Maven 3.3.x
 * Install a MQTT Broker, for example [Mosquitto](https://mosquitto.org/
     
+	
+===
+Additional prereqs
+* for subscriber (recording) a file called "output.txt" will be created
+* in replaying (publisher), need a file called "input.txt"
+* MQTT stream is from pozyx controllers - the java classes mirror the data structure in the application protocol.
+* need to set your IP address for the subscriber and publisher.
+
     
 ## Build and run the application
 
