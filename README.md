@@ -51,7 +51,7 @@ $ ./target/mqtt-sample subscriber
 
 **4- Run the Publisher**
 
-Run the publisher with the following command; it will read from input.txt (which you should have created as output.txt from a subscriber)
+Run the publisher with the following command; it will read from input.txt (which you should have created as output.txt from a subscriber). NOTE/POSSIBLE IMPROVEMENT. The SLOMO_FACTOR variable, which determines whether the replay is at real-time (1) faster (<1) or slower (>1) is now a variable, could be made into a command line argument.  As could, of course, be the input file name, etc.
 
 ```
 $ ./target/mqtt-sample publisher 
